@@ -2595,6 +2595,11 @@ html {
   margin-bottom: 0.5rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -2621,6 +2626,18 @@ html {
 
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .block {
@@ -3048,6 +3065,10 @@ html {
 
   .md\:mr-9 {
     margin-right: 2.25rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {

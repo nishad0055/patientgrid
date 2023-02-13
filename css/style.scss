@@ -5,32 +5,96 @@ $Black: #000000;
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+
+  overflow-x: hidden;
 }
 
 .nav-color {
   background: rgba(217, 217, 217, 0.5);
 }
+
+.ctn img {
+  width: 30px;
+  height: 34.8px;
+}
 .title {
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 27px;
 }
 span {
   font-weight: bold;
 }
 .hero {
-  margin-top: 85px;
+  margin-top: 55px;
 }
 .hero p {
-  font-size: $pFontSize;
-  padding-bottom: 40px;
+  font-size: 15px;
+  padding-bottom: 30px;
   color: $Color50;
 }
 .hero a {
-  font-size: $pFontSize;
+  font-size: 15px;
   font-weight: bold;
   color: $Black;
 }
-.ctn img {
-  width: 30px;
-  height: 34.8px;
+
+.content {
+  position: absolute;
+  background: linear-gradient(90.51deg, #87cefa 3.78%, #2a0896 96.65%);
+  border-radius: 30px;
+  transform: rotate(7.43deg);
+  height: 500.85px;
+  width: 100vw;
+  left: -49px;
+}
+.img-container img {
+  position: absolute;
+  width: 100vw;
+  height: 562px;
+  transform: rotate(-7.43deg);
+  left: 55px;
+  overflow: hidden;
+  border-radius: 29px;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 50px;
+    margin-bottom: 27px;
+  }
+  span {
+    font-weight: bold;
+  }
+  .hero {
+    margin-top: 85px;
+  }
+  .hero p {
+    font-size: $pFontSize;
+    padding-bottom: 40px;
+    color: $Color50;
+  }
+  .hero a {
+    font-size: $pFontSize;
+    font-weight: bold;
+    color: $Black;
+  }
+
+  .content {
+    position: absolute;
+    background: linear-gradient(90.51deg, #87cefa 3.78%, #2a0896 96.65%);
+    border-radius: 30px;
+    transform: rotate(7.43deg);
+    height: 500.85px;
+    width: 1450px;
+    left: -49px;
+  }
+  .img-container img {
+    position: absolute;
+    width: 1130px;
+    height: 562px;
+    transform: rotate(-7.43deg);
+    left: 155px;
+    overflow: hidden;
+    border-radius: 29px;
+  }
 }
