@@ -39,13 +39,12 @@ span {
 }
 
 .content {
-  position: absolute;
+  position: relative;
   background: linear-gradient(90.51deg, #87cefa 3.78%, #2a0896 96.65%);
   border-radius: 30px;
   transform: rotate(7.43deg);
   height: 500.85px;
   width: 100vw;
-  left: -49px;
 }
 
 .img-container img {
@@ -53,9 +52,46 @@ span {
   width: 100vw;
   height: 562px;
   transform: rotate(-7.43deg);
-  left: 55px;
   overflow: hidden;
   border-radius: 29px;
+}
+
+.card-bg {
+  position: relative;
+  width: 406px;
+  height: 288px;
+  background: rgba(157, 134, 209, 0.15);
+  box-shadow: -30px 30px 30px rgba(40, 40, 40, 0.05);
+  border-radius: 30px;
+}
+
+.card {
+  position: relative;
+  width: 406px;
+  height: 316px;
+  left: 36px;
+  top: 38px;
+  background: rgba(255, 255, 255, 0.54);
+  box-shadow: -30px 30px 30px rgba(40, 40, 40, 0.05);
+  border-radius: 30px;
+}
+
+.icons {
+  color: #fdcf75;
+  width: 295px;
+  height: 55px;
+  gap: 5px;
+  background: #efefef;
+  box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.lines {
+  width: 336px;
+  height: 11px;
+  margin-top: 56px;
+  background: #d9d9d9;
+  border-radius: 10px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -80,13 +116,13 @@ span {
     color: #000000;
   }
   .content {
-    position: absolute;
+    position: relative;
     background: linear-gradient(90.51deg, #87cefa 3.78%, #2a0896 96.65%);
     border-radius: 30px;
     transform: rotate(7.43deg);
     height: 500.85px;
     width: 1450px;
-    left: -49px;
+    left: -85px;
   }
   .img-container img {
     position: absolute;
@@ -94,7 +130,11 @@ span {
     height: 562px;
     transform: rotate(-7.43deg);
     left: 155px;
-    overflow: hidden;
     border-radius: 29px;
+    overflow: hidden;
+  }
+  .card h5 {
+    font-size: 22px;
+    font-weight: bold;
   }
 }/*# sourceMappingURL=style.css.map */
